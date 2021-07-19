@@ -1,0 +1,24 @@
+.settings__setting {
+  padding: 15px 0;
+  border-bottom: var(--main-border);
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease-out;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 15px;
+  font-size: 22px;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.settings__setting:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
